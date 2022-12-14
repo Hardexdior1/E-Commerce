@@ -1,0 +1,33 @@
+form input{
+    margin: 0 auto;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid rgb(223, 93, 93);
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(245, 205, 157);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button{
+    /* max-width:300 ; */
+    width: 80%;
+    border: 1px solid rgb(223, 93, 93);
+    margin: 0 auto;
+    max-width: 300px;
+    border-top:3px solid yellow ;
+    border-bottom: 3px solid blue;
+    height: 40px;
+    border-radius: 7px;
+    transition:opacity 1s ;
+    box-shadow: 6px 6px 5px rgb(201, 240, 60);
+}
+button:hover{
+   background-color: blue;
+   border: 1px solid white;
+   opacity: 0.7;
+   color: white;
+}

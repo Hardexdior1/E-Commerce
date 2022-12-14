@@ -1,0 +1,30 @@
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    position: sticky;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+.link{
+    text-decoration: none;
+    background-color:white;
+    color: black;
+}
+.cart{
+    text-decoration: none;
+    background-color:white;
+    color: black;
+}
+
+.Navbar .link:hover{
+    text-decoration: none;
+    color: blue;
+    background-color: white;
+}
+.cart-icon{
+    width: 40px;
+}
+

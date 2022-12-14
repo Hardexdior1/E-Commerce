@@ -1,0 +1,16 @@
+.eachItem{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 10px 30px;
+}
+.eachItem img{
+    width: 100%;
+    max-width: 400px;
+}
+.eachItem-quantity{
+    display: flex;
+    background-color: blue;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}

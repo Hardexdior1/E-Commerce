@@ -1,0 +1,28 @@
+.eachItem{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 10px 30px;
+}
+.eachItem img{
+    width: 100%;
+    max-width: 400px;
+}
+.eachItem-quantity{
+    display: flex;
+    background-color: blue;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    justify-content: center;
+}
+.btn2{
+    background-color:whitesmoke;
+    width: 30px;
+    color: black;
+    border-left: 1px solid red;
+    border-right: 1px solid yellow;
+}
+.btn2:hover{
+    background-color: whitesmoke;
+    color:black;
+}
